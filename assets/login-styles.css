@@ -1,0 +1,71 @@
+/* Change background color and font family */
+/* line 7, sass/login-styles.scss */
+body {
+  background: #15163E;
+  font-family: Arial,Verdana,sans-serif;
+  /*background: #15163E url(https://www.thebankruptcybureau.com/assets/2016/11/apple-desk-office-technology-1900.jpg);*/
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* line 19, sass/login-styles.scss */
+#login {
+  width: 390px;
+  background-color: rgba(21, 22, 62, 0.9);
+  margin-top: 70px;
+  padding: 20px 10px;
+}
+
+/* Change Width and Height of Logo Image + Add Custom Image File */
+/* line 32, sass/login-styles.scss */
+.login h1 a {
+  background-image: url(legal-logo.png);
+  width: 390px;
+  height: 149px;
+  background-size: 390px 149px;
+}
+
+/* Add a few changes to the color and style of form itself */
+/* line 41, sass/login-styles.scss */
+.login label {
+  color: #252865;
+  display: block;
+  margin-bottom: 1em;
+  font-weight: bold;
+}
+
+/* line 47, sass/login-styles.scss */
+.login form .input {
+  font-weight: normal;
+}
+
+/* line 50, sass/login-styles.scss */
+#loginform, .login p.message, #registerform, #resetpassform {
+  background-color: #21ACD3;
+}
+
+/* line 53, sass/login-styles.scss */
+.login #backtoblog a, .login #nav a {
+  color: #D20056;
+}
+
+/* line 59, sass/login-styles.scss */
+.wp-core-ui .button-primary {
+  background: #D20056;
+}
+
+/* line 63, sass/login-styles.scss */
+.wp-core-ui .button-primary {
+  background: #D20056;
+}
+
+/* line 67, sass/login-styles.scss */
+#loginfooter {
+  color: white;
+  text-decoration: none;
+}
