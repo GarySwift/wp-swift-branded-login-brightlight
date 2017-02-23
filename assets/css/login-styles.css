@@ -1,144 +1,60 @@
 /* Change background color and font family */
-/* line 7, ../sass/login-styles.scss */
+/* line 2, ../sass/login-styles.scss */
 body {
+  background: #595959;
+  /* #f8fafa; */
   font-family: Arial,Verdana,sans-serif;
-}
-
-/* line 12, ../sass/login-styles.scss */
-body.login {
-  background: #15163E url(https://www.thebankruptcybureau.com/assets/2016/11/apple-desk-office-technology-1900.jpg);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: top center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+  background-image: url(../images/hero-bg-foundation-6-large.svg);
   background-size: cover;
 }
 
-/* line 22, ../sass/login-styles.scss */
-body.interim-login {
-  background-image: none;
-}
-
-/* line 25, ../sass/login-styles.scss */
-#login {
-  width: 390px;
-  background-color: rgba(21, 22, 62, 0.9);
-  margin-top: 70px;
-  padding: 20px 10px;
-}
-
 /* Change Width and Height of Logo Image + Add Custom Image File */
-/* line 38, ../sass/login-styles.scss */
+/* line 10, ../sass/login-styles.scss */
 .login h1 a {
-  background-image: url("../images/legal-logo.png");
-  width: 390px;
-  height: 149px;
-  background-size: 390px 149px;
-}
-
-/* line 45, ../sass/login-styles.scss */
-p.message, #reg_passmail {
-  color: #252865;
-  font-weight: bold;
-}
-
-/* line 51, ../sass/login-styles.scss */
-p.message.reset-pass {
-  text-align: center;
-  font-size: 18px;
-}
-/* line 54, ../sass/login-styles.scss */
-p.message.reset-pass a {
-  display: block;
-  text-align: center;
-  font-size: 20px;
-  font-weight: lighter;
-  padding: 4px;
-  background-color: #D20056;
-  color: white;
-  text-decoration: none;
-  margin: 10px;
-  text-transform: capitalize;
-}
-/* line 67, ../sass/login-styles.scss */
-p.message.reset-pass a:after {
-  content: " Here";
-}
-/* line 70, ../sass/login-styles.scss */
-p.message.reset-pass a:hover {
-  background: #b9004c;
-  border-color: #b9004c;
+  background-image: url(../images/logo.png);
+  width: 320px;
+  height: 83px;
+  background-size: 320px 83px;
 }
 
 /* Add a few changes to the color and style of form itself */
-/* line 76, ../sass/login-styles.scss */
+/* line 18, ../sass/login-styles.scss */
 .login label {
-  color: #252865;
+  color: #454545;
   display: block;
+  margin-bottom: 1em;
   font-weight: bold;
 }
 
-/* line 82, ../sass/login-styles.scss */
+/* line 24, ../sass/login-styles.scss */
 .login form .input {
   font-weight: normal;
-  margin-bottom: 4px;
 }
 
-/* line 86, ../sass/login-styles.scss */
-#loginform, .login p.message, #registerform, #resetpassform, #lostpasswordform {
-  background-color: #21ACD3;
+/* line 27, ../sass/login-styles.scss */
+#loginform, .login p.message {
+  background-color: #eeeecb;
 }
 
-/* line 90, ../sass/login-styles.scss */
+/* line 30, ../sass/login-styles.scss */
 .login #backtoblog a, .login #nav a {
-  color: #FBFBFB;
+  color: #4da28f;
 }
 
-/* line 96, ../sass/login-styles.scss */
+/* line 33, ../sass/login-styles.scss */
 .wp-core-ui .button-primary {
-  background: #D20056;
-  border-color: #D20056;
-  border-width: 0;
+  background: #4da28f;
+}
+
+/* line 37, ../sass/login-styles.scss */
+.wp-core-ui .button-primary {
+  background: #4da28f;
+  display: block;
+  width: 100%;
   text-shadow: none;
   border-radius: 0;
-  width: 100%;
-  font-size: 20px;
-  font-weight: lighter;
-  margin-top: 10px;
-}
-
-/* line 109, ../sass/login-styles.scss */
-.wp-core-ui .button-primary:hover {
-  background: #b9004c;
-  border-color: #b9004c;
-}
-
-/* line 113, ../sass/login-styles.scss */
-.wp-core-ui .button.button-large {
-  height: 40px;
-  line-height: 38px;
-  padding: 0 12px 2px;
-}
-
-/* line 118, ../sass/login-styles.scss */
-.wp-core-ui .button-primary {
-  background: #D20056;
-}
-
-/* line 122, ../sass/login-styles.scss */
-#loginfooter {
-  color: white;
-  text-decoration: none;
-}
-
-/* line 127, ../sass/login-styles.scss */
-#wp-auth-check-wrap #wp-auth-check {
-  background-color: #15163E;
-}
-
-/* line 130, ../sass/login-styles.scss */
-#wp-auth-check-wrap .wp-auth-check-close {
-  color: white;
+  box-shadow: none;
+  font-size: 1.3rem;
+  height: 36px;
+  line-height: 34px;
 }
