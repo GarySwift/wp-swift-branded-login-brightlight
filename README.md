@@ -1,4 +1,4 @@
- # WP Swift: Branded Login BrightLight
+# WP Swift: Branded Login BrightLight
 
  * Plugin Name:       WP Swift: Branded Login BrightLight
  * Description:       A plugin that restyles the default WordPress login page
